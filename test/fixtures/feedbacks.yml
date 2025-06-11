@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee: one
+  data_resposta: 2025-06-11
+  interesse_cargo: 1
+  comentario_interesse: MyText
+  contribuicao: 1
+  comentario_contribuicao: MyText
+  aprendizado_desenvolvimento: 1
+  comentario_aprendizado: MyText
+  feedback: 1
+  comentario_feedback: MyText
+  interacao_gestor: 1
+  comentario_interacao: MyText
+  clareza_carreira: 1
+  comentario_clareza: MyText
+  expectativa_permanencia: 1
+  comentario_expectativa: MyText
+  enps: 1
+  comentario_enps: MyText
+
+two:
+  employee: two
+  data_resposta: 2025-06-11
+  interesse_cargo: 1
+  comentario_interesse: MyText
+  contribuicao: 1
+  comentario_contribuicao: MyText
+  aprendizado_desenvolvimento: 1
+  comentario_aprendizado: MyText
+  feedback: 1
+  comentario_feedback: MyText
+  interacao_gestor: 1
+  comentario_interacao: MyText
+  clareza_carreira: 1
+  comentario_clareza: MyText
+  expectativa_permanencia: 1
+  comentario_expectativa: MyText
+  enps: 1
+  comentario_enps: MyText
