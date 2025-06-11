@@ -1,24 +1,57 @@
-# README
+# Feedback Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projeto desenvolvido em Ruby on Rails, com o objetivo de consultar os feedbacks de funcionários.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🚀 Tecnologias
 
-* System dependencies
+- Ruby 3.2
+- Rails 7
+- PostgreSQL
+- Docker + Docker Compose
 
-* Configuration
+---
 
-* Database creation
+## ⚙️ Como rodar o projeto
 
-* Database initialization
+### 1. Clone o repositório
 
-* How to run the test suite
+```bash
+git clone git@darwin:darwinssilva/feedback-challenge.git
+cd feedback-challenge
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### 2. Construa os containers
 
-* Deployment instructions
+```bash
+docker compose build
+```
 
-* ...
+### 3. Instale o Rails (na primeira vez)
+```bash
+docker compose run web rails new . --force --no-deps --database=postgresql
+```
+Altere config/database.yml para usar host: db
+
+### 2. Suba os containers
+
+```bash
+docker compose up
+```
+
+## 🗃️ Banco de dados
+
+### 1. Acesse o container
+
+```bash
+docker compose exec web bash
+```
+
+### 1. Agora dentro do bash:
+
+```bash
+rails db:create
+rails db:migrate
+rails db:seed
+```
