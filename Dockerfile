@@ -1,13 +1,15 @@
-FROM ruby:3.2
+FROM ruby:3.2-slim
 
-# Adiciona bibliotecas necessárias para gems nativas
 RUN apt-get update -qq && apt-get install -y \
   build-essential \
   libpq-dev \
   nodejs \
   pkg-config \
   libyaml-dev \
-  postgresql-client
+  postgresql-client && \
+  apt-get upgrade -y && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
