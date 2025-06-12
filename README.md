@@ -91,18 +91,17 @@ http://localhost:3000/api-docs
 docker compose exec web rake rswag:specs:swaggerize
 ```
 
-## Task Checklist
+## ✅ Task Checklist
 
-[x] Task 1: Create a Basic Database
-[] Task 2: Create a Basic Dashboard
-[x] Task 3: Create a Test Suite
-[x] Task 4: Create a Docker Compose Setup
-[] Task 5: Exploratory Data Analysis
-[] Task 6: Data Visualization - Company Level
-[] Task 7: Data Visualization - Area Level
-[] Task 8: Data Visualization - Employee Level
-[x] Task 9: Build a Simple API
-[] Task 10: Sentiment Analysis
-[] Task 11: Report Generation
-[] Task 12: Creative Exploration
-
+- [x] Task 1: Create a Basic Database
+- [ ] Task 2: Create a Basic Dashboard
+- [x] Task 3: Create a Test Suite
+- [x] Task 4: Create a Docker Compose Setup
+- [ ] Task 5: Exploratory Data Analysis
+- [ ] Task 6: Data Visualization - Company Level
+- [ ] Task 7: Data Visualization - Area Level
+- [ ] Task 8: Data Visualization - Employee Level
+- [x] Task 9: Build a Simple API
+- [ ] Task 10: Sentiment Analysis
+- [ ] Task 11: Report Generation
+- [ ] Task 12: Creative Exploration
