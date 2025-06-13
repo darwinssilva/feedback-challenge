@@ -1,6 +1,8 @@
 class Employee < ApplicationRecord
   has_many :feedbacks, dependent: :destroy
 
+  validates :nome, presence: true
+
   scope :by_localidade, ->(value) { where(localidade: value) }
   scope :by_area, ->(value) { where(area: value) }
   scope :by_tempo, ->(value) { where(tempo_de_empresa: value) }
